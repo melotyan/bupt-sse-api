@@ -16,6 +16,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <dependency>
+            <groupId>cn.sse.bupt</groupId>
+            <artifactId>bupt-sse-model</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
