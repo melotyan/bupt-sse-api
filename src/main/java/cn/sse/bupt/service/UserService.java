@@ -14,9 +14,11 @@ public interface UserService {
 
     public int logout(UserModel userModel);
 
-    public int activeAccount(int uid);
+    public int activeAccount(int id);
 
     public boolean isActivated(String username);
 
     public UserModel findUserByUsername(String username);
+
+    public UserModel findUserById(int id);
 }
