@@ -2,6 +2,8 @@ package cn.sse.bupt.service;
 
 import cn.sse.bupt.model.NoticeModel;
 
+import java.util.List;
+
 /**
  * Created by hao.yan on 2015/12/11.
  */
@@ -12,5 +14,5 @@ public interface NoticeService {
 
     public int deleteNotice(int id, int updateUid);
 
-    public NoticeModel findNoticeByUid(int uid);
+    public List<NoticeModel> findNoticeByUid(int uid, int startId, int pageSize);
 }
