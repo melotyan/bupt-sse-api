@@ -21,4 +21,6 @@ public interface UserService {
     public UserModel findUserByUsername(String username);
 
     public UserModel findUserById(int id);
+
+    public int updateUserInfo(UserModel userModel);
 }
