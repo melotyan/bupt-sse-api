@@ -6,7 +6,7 @@ import cn.sse.bupt.model.UserModel;
  * Created by hao.yan on 2015/12/1.
  */
 public interface UserService {
-    public long register(UserModel userModel);
+    public int register(UserModel userModel);
 
     public boolean login(String username, String password);
 
@@ -14,5 +14,9 @@ public interface UserService {
 
     public int logout(UserModel userModel);
 
-    public int activeAccount(long uid);
+    public int activeAccount(int uid);
+
+    public boolean isActivated(String username);
+
+    public UserModel findUserByUsername(String username);
 }
