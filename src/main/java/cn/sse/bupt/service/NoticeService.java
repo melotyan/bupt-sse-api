@@ -12,7 +12,11 @@ public interface NoticeService {
 
     public int updateNotice(int id, int updateUid, String title, String content);
 
-    public int deleteNotice(int id, int updateUid);
+    public int deleteNotice(int id);
 
     public List<NoticeModel> findNoticeByUid(int uid, int startId, int pageSize);
+
+    public NoticeModel findNoticeById(int id);
+
+    public List<NoticeModel> listNotice(int offset, int pageSize);
 }
