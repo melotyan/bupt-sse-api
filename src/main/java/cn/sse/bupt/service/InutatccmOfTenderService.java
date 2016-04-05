@@ -14,5 +14,7 @@ public interface InutatccmOfTenderService {
 
     public int deleteTenderInfo(int id);
 
+    public InutatccmOfTenderModel viewTenderDetail(int id);
+
     public List<InutatccmOfTenderModel> listTenderInfos(int page, int pageSize);
 }
