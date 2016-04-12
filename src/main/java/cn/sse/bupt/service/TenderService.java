@@ -11,4 +11,6 @@ public interface TenderService {
     public int competitiveTender(int uid, int tid, String title, String fileUrl);
 
     public List<TenderModel> listTenderByTid(int tid);
+
+    public List<TenderModel> listTenderByUid(int uid);
 }
