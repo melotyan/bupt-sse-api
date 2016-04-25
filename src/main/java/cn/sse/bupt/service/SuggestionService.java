@@ -16,5 +16,5 @@ public interface SuggestionService {
 
     public SuggestionModel viewSuggestion(int id);
 
-    public List<SuggestionModel> listSuggestions(int offset, int pageSize);
+    public List<SuggestionModel> listSuggestionsByType(int type, int offset, int pageSize);
 }
