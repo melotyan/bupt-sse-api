@@ -18,9 +18,9 @@ public interface MailboxService {
 
     public int setMailReaded(int id);
 
-    public List<MailboxModel> viewInbox();
+    public List<MailboxModel> viewInbox(String receiver);
 
-    public List<MailboxModel> viewOutbox();
+    public List<MailboxModel> viewOutbox(String sender);
 
     public int deleteSendedMail(int id);
 
