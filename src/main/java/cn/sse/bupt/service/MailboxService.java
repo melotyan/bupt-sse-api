@@ -27,4 +27,6 @@ public interface MailboxService {
     public int deleteSendedMail(int id);
 
     public int deleteReceivedMail(int id);
+
+    public int editDraft(int id, String receiver, String title, String content);
 }
