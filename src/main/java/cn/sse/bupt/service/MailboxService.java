@@ -22,6 +22,8 @@ public interface MailboxService {
 
     public List<MailboxModel> viewOutbox(String sender);
 
+    public List<MailboxModel> viewDrafts(String sender);
+
     public int deleteSendedMail(int id);
 
     public int deleteReceivedMail(int id);
