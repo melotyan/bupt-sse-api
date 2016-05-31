@@ -25,4 +25,6 @@ public interface UserService {
     public int updateUserInfo(UserModel userModel);
 
     public int manageUser(int id, int userType, int accountStatus);
+
+    public List<UserModel> getAllUsers();
 }
