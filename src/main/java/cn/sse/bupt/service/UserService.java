@@ -2,6 +2,8 @@ package cn.sse.bupt.service;
 
 import cn.sse.bupt.model.UserModel;
 
+import java.util.List;
+
 /**
  * Created by hao.yan on 2015/12/1.
  */
